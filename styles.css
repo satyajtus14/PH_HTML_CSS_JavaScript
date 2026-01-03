@@ -1,6 +1,19 @@
-.h1 {
+.H1_headline {
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
     background-color: blueviolet;
 
+}
+
+.p_paragraph {
+    margin: 20px;
+    border: 20px;
+    border-color: blue;
+    padding: 30px;
+
+}
+
+.span_attributes {
+   font-size: large;
+   font-style: italic;
 }
