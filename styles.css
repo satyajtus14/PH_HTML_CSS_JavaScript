@@ -1,11 +1,11 @@
-.H1_headline {
+.H1{
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
     background-color: blueviolet;
 
 }
 
-.p_paragraph {
+.p{
     margin: 20px;
     border: 20px;
     border-color: blue;
@@ -13,7 +13,16 @@
 
 }
 
-.span_attributes {
+.span{
    font-size: large;
    font-style: italic;
+}
+
+.href{
+    display: inline;
+    margin-right: 15px;
+}
+.list{
+    display: inline;
+    border-right: 10px;
 }
