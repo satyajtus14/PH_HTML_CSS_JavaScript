@@ -1,0 +1,28 @@
+.H1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    background-color: blueviolet;
+
+}
+
+.p{
+    margin: 20px;
+    border: 20px;
+    border-color: blue;
+    padding: 30px;
+
+}
+
+.span{
+   font-size: large;
+   font-style: italic;
+}
+
+.href{
+    display: inline;
+    margin-right: 15px;
+}
+.list{
+    display: inline;
+    border-right: 10px;
+}
