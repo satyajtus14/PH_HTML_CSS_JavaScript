@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback form for a storytelling Page</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header class="form-header">
+        <h2>Feedback form for a storytelling</h2>
+        <h4>We would love to hear your thoughts</h4>
+    </header>
+    <main class="form-content">
+        <section>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" name="First Name" id="firstname" placeholder="First">
+                <input type="text" name="Last Name" id="lastname" placeholder="Last">
+                <br> <br><br> <br>
+                <label for="email">Email</label>
+                <input type="email" name="" id="email" placeholder="abcd@example.com">
+                <br> <br><br> <br>
+                <label for="Rate">Participants Rate: </label>
+                <select name="rate" id="rate">
+                <option value=""> Select your opinions </option>
+                <option value="Good">Good</option>
+                <option value="Better">Better</option>
+                <option value="Best">Best</option>
+                <option value="Excellent">Excellent</option> 
+            </select>
+                 <br> <br><br> <br>
+                <legend>Please give your feedback</legend>
+                <textarea name="feedback" id="feeback" cols="50" rows="4"></textarea> <br> <br>
+                <button class="input-button"> Send Feedback</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
